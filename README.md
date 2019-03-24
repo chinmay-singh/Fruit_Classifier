@@ -1,7 +1,6 @@
 # image
 ##### The new activation function is {e^x-1}/{1+x^2}
-The function is more complex than the swish function and hence can allow the learning of more complex relationships having more points of inflection. The function provides a faster and greater decrease in loss as is shown in the comparision graphs. However
-the loss change is not uniform owing to the point that the graph of this function has many more changes in gradients and in non monotonous with a more deeper local minima making the implementation prone to irregular changes in loss. This function would re
+The function is more complex than the swish function and hence can allow the learning of more complex relationships by making non linear combinations having more points of inflection. The function provides a faster and greater decrease in loss as is shown in the comparision graphs. However the loss change is not uniform owing to the point that the graph of this function has many more changes in gradients and in non monotonous with a more deeper local minima making the implementation prone to irregular changes in loss. This function would require a greater training time but would eventually result into the capturing of more complex relations in longer training cycles.
 
 
 
